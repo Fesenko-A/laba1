@@ -22,7 +22,7 @@ Ipart Ipart::Read()
 
 void Ipart::Display()
 {
-	if (second != 0)
+	if (second != 0)	//	Перевірка ділення на 0
 		cout << "The result is " << round(first / second) << endl;
 	else
 		cout << "Zero exception" << endl;
