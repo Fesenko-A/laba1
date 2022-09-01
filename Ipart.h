@@ -5,5 +5,6 @@ struct Ipart {
 	float first, second;
 	Ipart Init(int f, int s);	//	Ініціалізація змінних
 	Ipart Read();	//	Введення з клавіатури
-	void Display();	//	Розрахунок та виведення
+	int ipart();		//	Виділення цілої частини дробу first / second
+	void Display();	//	Виведення
 };
